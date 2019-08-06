@@ -10,6 +10,12 @@ spring:
   # 注册服务追踪
   zipkin:
     base-url: http://localhost:9411
+    
+    # admin 监控
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 server:
   port: 8765
